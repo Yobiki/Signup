@@ -1,0 +1,97 @@
+/*
+font-family: 'Playfair Display', serif;
+font-family: 'Raleway', sans-serif;
+*/
+
+
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    font-family: 'Raleway',sans-serif;
+	
+	
+} 
+.log{
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.logpart{
+    background-color: rgb(231, 206, 206); 
+	border-radius: 15px; 
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); 
+	padding: 10px 20px;  
+	transition: transform 0.2s; 
+    height: 60vh;
+	width: 25vw; 
+	text-align: center; 
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+    justify-content: center; 
+    
+}
+h1{
+    font-family: 'Playfair Display', serif;
+}
+.hade{
+    margin: 24px 0 12px 0;
+    text-align: center;
+    
+}
+.Username{
+    height: 40px;
+    width: 280px;
+    background-color: rgb(231, 206, 206);
+    font-size: 20px;
+    border:none;
+    border-bottom: 1px solid #1f201f;
+    outline: none;
+
+    
+    
+}
+.Username:focus::placeholder{
+    color: transparent ;
+}
+.Username:focus{
+    outline:none;
+}
+
+button { 
+    height: 40px;
+	width: 200px;	 
+	font-size: 20px;
+	border: none; 
+	color: white; 
+	cursor: pointer; 
+	background-color: #1f201f; 
+	 
+	
+} 
+button:hover{
+    background-color: white;
+    color:black;
+}
+.ptag{
+    font-size:20px;
+}
+.sms{
+    color: red;
+    font-size: 1em;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 600;
+}
